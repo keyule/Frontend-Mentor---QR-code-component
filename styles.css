@@ -1,60 +1,57 @@
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: hsl(212, 45%, 89%)
-  }
-  
-  .card {
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  
-  .card-qr {
-    display: flex;
-    justify-content: center;
-    padding: 15px 15px 0px 15px;
-    
-  }
-  
-  .card-qr img {
-    width: 290px;
-    height: auto;
-    border-radius: 20px;
-  }
-
-  .card-content {
-    padding: 10px 30px 30px 30px;
+    background-color: hsl(212, 45%, 89%);
+    padding: 1rem;
     text-align: center;
   }
   
+  main {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-qr {
+    max-width: 20rem;
+  }
+
+  .card-qr img {
+    border-radius: 2rem;
+    display: block;
+    max-width: 100%;
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  .card-content {
+    padding: 1.4rem;
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 1rem;
+  }
+  
   .card-content h1 {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 700;
-    margin-bottom: 10px;
     color: hsl(218, 44%, 22%);
   }
   
   .card-content p {
-    font-size: 15px;
+    font-size: 1rem;
     color: hsl(220, 15%, 55%);
-    font-weight: 400;
   }
-  
-
 
   .attribution { 
     font-size: 11px; 
-    text-align: 
-    center; 
+    text-align: center; 
  }
 
   .attribution a { 
